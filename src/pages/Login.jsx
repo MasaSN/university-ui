@@ -2,7 +2,6 @@ import React from 'react'
 import { Form, Input, Button , message} from 'antd'
 import { useState , } from 'react';
 import { useNavigate } from 'react-router-dom';
-import axios from 'axios';
 import { login } from '../services/login';
 
 function Login() {
